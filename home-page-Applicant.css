@@ -1,0 +1,118 @@
+/* General styles for both pages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #FFCC00;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Search Section */
+.search-section {
+    background-color: #3C63FF;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+.search-section input {
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.search-section p {
+    margin-top: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.category {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+}
+
+/* Recommended Jobs Section */
+.recommended-section {
+    margin: 20px;
+}
+
+.recommended-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.recommended-section h2 span {
+    font-weight: normal;
+    color: gray;
+}
+
+.job-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.job-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.tags span {
+    background-color: #3C63FF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
