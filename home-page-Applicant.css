@@ -1,4 +1,3 @@
-/* General styles for both pages */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,6 @@ body {
     background-color: #f0f2f5;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -45,7 +43,6 @@ nav a {
     gap: 10px;
 }
 
-/* Search Section */
 .search-section {
     background-color: #3C63FF;
     padding: 20px;
@@ -82,7 +79,6 @@ nav a {
     text-align: center;
 }
 
-/* Recommended Jobs Section */
 .recommended-section {
     margin: 20px;
 }

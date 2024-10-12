@@ -1,4 +1,3 @@
-/* General styles for both pages */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,6 @@ body {
     background-color: #f0f2f5;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -45,14 +43,13 @@ nav a {
     gap: 10px;
 }
 
-/* Browse Section */
 .browse-section {
     display: flex;
     margin: 20px;
 }
 
 aside {
-    width: 200px;
+    width: 300px;
     padding: 10px;
     background-color: white;
     border-radius: 10px;
@@ -62,7 +59,7 @@ aside {
 aside input {
     padding: 10px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
@@ -71,18 +68,26 @@ aside h3 {
     margin-bottom: 20px;
 }
 
-aside ul {
-    list-style-type: none;
-}
-
-aside li {
+aside form {
+    padding: 10px;
+    width: 100%;
     margin-bottom: 10px;
-    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #ccc;
     font-size: 14px;
     color: #333;
 }
 
-/* Job List Section */
+.checkbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+}
+
 .job-list {
     flex-grow: 1;
     margin-left: 20px;
